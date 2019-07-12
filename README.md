@@ -3,7 +3,7 @@
 ## Conteúdo
 
 * [Regras](rules.md)
-* [Log - clique aqui para ver o meu progresso](log.md)
+* [Log - clique aqui para ver o meu progresso](https://github.com/zorasantos/desafio-100-Days-Of-Code/blob/master/Log.md)
 * [README](README.md)
 
 ## Estarei participando principalmente resolvendo os exercício do site:
