@@ -1,10 +1,10 @@
 # Estou participando do #100DaysOfCode Challenge
-
+OBS: Estou participando como iniciante.
 ## Conteúdo
 
-* [Regras](rules.md)
+* [Regras](https://github.com/zorasantos/desafio-100-Days-Of-Code/blob/master/Regras.md)
 * [Log - clique aqui para ver o meu progresso](https://github.com/zorasantos/desafio-100-Days-Of-Code/blob/master/Log.md)
-* [README](README.md)
+* [README](https://github.com/zorasantos/desafio-100-Days-Of-Code/blob/master/README.md)
 
 ## Estarei participando principalmente resolvendo os exercício do site:
 
