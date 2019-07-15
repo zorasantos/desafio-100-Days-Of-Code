@@ -1,19 +1,20 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
-const Vacina = new Schema({
+const Usuario = new Schema({
     nome: {
         type: String,
         required: true
     },
-    dose: {
+    email: {
         type: String,
         required: true
     },
-    data: {
+
+    senha: {
         type: String,
         required: true
     }
 })
 
-mongoose.model('vacinas', Vacina)
+mongoose.model('usuarios', Usuario)

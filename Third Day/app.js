@@ -2,9 +2,13 @@ const express = require('express')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 const app = express()
+const admin = require('./routers/admin')
+const usuario = require('./routers/usuario')
 const path = require('path')
 require('./models/vacinas')
 const Vacina = mongoose.model('vacinas')
+require('./models/usuarios')
+const Usuario = mongoose.model('usuarios')
 
 
 //Configuração bodyParser
@@ -23,6 +27,8 @@ mongoose.connect('mongodb://localhost/blogapp', { useNewUrlParser: true }).then(
 app.use(express.static(path.join(__dirname, 'public')))
 
 //Rotas
+app.use('/admin', admin)
+app.use('/usuario', usuario)
 
 app.get('/', (req, res) => {
     res.send('Server running in PORT 8081')
