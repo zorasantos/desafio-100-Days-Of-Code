@@ -20,3 +20,6 @@ neste algoritmo usamos funções, variáveis, operadores lógicos, loops, entre 
 
 ### Dia 5: 17 de Julho de 2019 (Sixth Day)
 **Progresso de Hoje**: Demos continuidade a criação da interface da aplicação. Criamos uma página de registro e uma página de login, implementamos imagem entre outras melhorias no código. Resolvemos também desfios no freecodecamp, bem como outras tarejas de codificação. link: (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifth%20day/cartaodevacina)
+
+## Dia 6: 18 de Julho de 2019 (Seventh Day)
+**Progresso de Hoje**: Começamos a desenvolver uma simples calculadora usando javaScript e react.js. Hoje criamos a interface e configuramos algumas ações de botões. Amanhã implementaremos a logica da aplicação. Link do projeto: (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Seventh%20Day/calculadora)
