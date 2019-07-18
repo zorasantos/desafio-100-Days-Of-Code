@@ -2,6 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 const app = express()
+const allowCors = require('./cors')
 const admin = require('./routers/admin')
 const usuario = require('./routers/usuario')
 const path = require('path')
@@ -14,6 +15,7 @@ const Usuario = mongoose.model('usuarios')
 //Configuração bodyParser
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
+app.use(allowCors)
 
 //Mongoose
 mongoose.Promisse = global.Promise;
