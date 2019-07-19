@@ -23,3 +23,6 @@ neste algoritmo usamos funções, variáveis, operadores lógicos, loops, entre 
 
 ## Dia 6: 18 de Julho de 2019 (Seventh Day)
 **Progresso de Hoje**: Começamos a desenvolver uma simples calculadora usando javaScript e react.js. Hoje criamos a interface e configuramos algumas ações de botões. Amanhã implementaremos a logica da aplicação. Link do projeto: (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Seventh%20Day/calculadora)
+
+## Dia 7: 19 de Julho de 2019 (Eighth Day)
+**Progresso de hoje** Começamos a implementar a lógica da calculadora, estamos esando o this, state, criando estados, tudo usando javascript. Link do projeto: (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Seventh%20Day/calculadora)
