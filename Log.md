@@ -30,3 +30,6 @@ neste algoritmo usamos funções, variáveis, operadores lógicos, loops, entre 
 ## Dia 8: 20 de Julho de 2019 (Ninth Day)
 **Progresso de hoje**: Hoje concluimos a criação da calculadora com javascript e reac.js.
 Link para o projeto: (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Seventh%20Day/calculadora)
+
+## Dia 9: 21 de Julho de 2019 (Tenth Day)
+**Progresso de Hoje**: Hoje daremos inicio a criação de um projeto real que sera um sistema de pedidos de uma pizzaria. Vamos usar javascript, react e farebase. Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Tenth%20Day/pizzaria)
