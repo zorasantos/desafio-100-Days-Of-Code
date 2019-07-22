@@ -3,5 +3,15 @@ import ReactDOM from 'react-dom'
 import App from './app'
 import * as serviceWorker from './serviceWorker'
 
-ReactDOM.render(<App />, document.getElementById('root'))
+import ErrorBoundary from './error'
+
+ReactDOM.render(
+  <ErrorBoundary>
+    {(hasError) => (
+      <App hasError={hasError} />
+    )}
+  </ErrorBoundary>,
+  document.getElementById('root')
+)
+
 serviceWorker.unregister()
