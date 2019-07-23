@@ -1,0 +1,2 @@
+## Dia 11: 23 de Julho de 2019: (Twelfth Day)
+**Progresso de hoje**: Trocamos a autencação de login do github pelo do facebook usando o sistema de autrnticação do firebase. Fizemos todas as configurações necessarias e o login esta funcionando bem. Fizemos tambem alumas melhorias no codigo. Link para o projeto(https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Tenth%20Day/pizzaria)
