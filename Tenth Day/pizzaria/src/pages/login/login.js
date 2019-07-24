@@ -1,43 +1,11 @@
-import React, { useState, useContext, useEffect, useCallback } from 'react'
-import firebase from '../../services/firebase'
+import React, { useContext } from 'react'
 import styled from 'styled-components'
 import { Button, Grid } from '@material-ui/core'
+import { AuthContext } from '../../contexts/auth'
 import { ReactComponent as MainLogo } from './logo.svg'
-import { ColorContext } from '../../app'
 
 function Login () {
-  const [userInfo, setUserInfo] = useState({
-    isUserLoggedIn: false,
-    user: null
-  })
-  const { isUserLoggedIn, user } = userInfo
-
-  const { color, setColor } = useContext(ColorContext)
-
-  useEffect(() => {
-    firebase.auth().onAuthStateChanged((user) => {
-      console.log('Dados do usuario:', user)
-      setUserInfo({
-        isUserLoggedIn: !!user,
-        user
-      })
-    })
-  }, [])
-
-  const login = useCallback(() => {
-    const provider = new firebase.auth.FacebookAuthProvider()
-    firebase.auth().signInWithRedirect(provider)
-  }, [])
-
-  const logout = useCallback(() => {
-    firebase.auth().signOut().then(() => {
-      console.log('Deslogou')
-      setUserInfo({
-        isUserLoggedIn: false,
-        user: null
-      })
-    })
-  }, [])
+  const { login } = useContext(AuthContext)
 
   return (
     <Container>
@@ -47,22 +15,9 @@ function Login () {
         </Grid>
 
         <Grid item xs={12} container justify='center'>
-          {isUserLoggedIn && (
-            <>
-              <pre>{user.displayName}</pre>
-              <Button variant='contained' onClick={logout}>
-                Sair
-              </Button>
-            </>
-          )}
-          {!isUserLoggedIn && (
-            <>
-              <FacebookButton onClick={login}>
-                  Entrar com Facebook ({color})
-              </FacebookButton>
-              <button onClick={() => setColor('blue')}>Cor Azul</button>
-            </>
-          )}
+          <FacebookButton onClick={login}>
+            Entrar com Facebook
+          </FacebookButton>
         </Grid>
       </Grid>
     </Container>

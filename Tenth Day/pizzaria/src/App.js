@@ -1,6 +1,8 @@
-import React, { createContext, lazy, useState, Fragment, Suspense } from 'react'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import { CssBaseline, LinearProgress } from '@material-ui/core'
+import React, { lazy, useContext, useEffect, Suspense } from 'react'
+import { Route, Switch } from 'react-router-dom'
+import { LinearProgress } from '@material-ui/core'
+import firebase from './services/firebase'
+import { AuthContext } from './contexts/auth'
 
 // import { MainPage } from './pages/main'
 // import { Login } from './pages/login'
@@ -9,28 +11,26 @@ import { CssBaseline, LinearProgress } from '@material-ui/core'
 const MainPage = lazy(() => import('./pages/main'))
 const Login = lazy(() => import('./pages/login'))
 
-export const ColorContext = createContext()
-
 function App () {
-  const [color, setColor] = useState('black')
+  const { setUserInfo } = useContext(AuthContext)
+
+  useEffect(() => {
+    firebase.auth().onAuthStateChanged((user) => {
+      console.log('Dados do usuario:', user)
+      setUserInfo({
+        isUserLoggedIn: !!user,
+        user
+      })
+    })
+  }, [setUserInfo])
 
   return (
-    <Fragment>
-      <ColorContext.Provider value={{
-        color,
-        setColor
-      }}>
-        <CssBaseline />
-        <BrowserRouter>
-          <Suspense fallback={<LinearProgress />}>
-            <Switch>
-              <Route path='/login' component={Login} />
-              <Route component={MainPage} />
-            </Switch>
-          </Suspense>
-        </BrowserRouter>
-      </ColorContext.Provider>
-    </Fragment>
+    <Suspense fallback={<LinearProgress />}>
+      <Switch>
+        <Route path='/login' component={Login} />
+        <Route component={MainPage} />
+      </Switch>
+    </Suspense>
   )
 }
 export default App
