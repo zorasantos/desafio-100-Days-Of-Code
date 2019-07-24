@@ -1,0 +1,2 @@
+## Dia 12: 24 de Julho de 2019 (Thirteenth Day)
+**Progresso de Hoje**: Modificamos o codigo para implementar o React Hooks. Fizemos toda parte de autentificação usando o novo context API do react v16. Tambem refatoramos o arquivo app.js pra melhorar a aplicação. Link do projeto(https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Tenth%20Day/pizzaria)
