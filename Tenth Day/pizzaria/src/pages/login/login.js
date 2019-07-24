@@ -1,34 +1,18 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useContext, useEffect, useCallback } from 'react'
+import firebase from '../../services/firebase'
 import styled from 'styled-components'
-import firebase from 'firebase/app'
-import 'firebase/auth'
 import { Button, Grid } from '@material-ui/core'
 import { ReactComponent as MainLogo } from './logo.svg'
-
-const firebaseConfig = {
-  apiKey: 'AIzaSyBrPX8VAI0rSfke6iViWTmLHf1HhRBwHZE',
-  authDomain: 'zora-pizzaria.firebaseapp.com',
-  databaseURL: 'https://zora-pizzaria.firebaseio.com',
-  projectId: 'zora-pizzaria',
-  storageBucket: '',
-  messagingSenderId: '886846004460',
-  appId: '1:886846004460:web:4afb653c74b9e052'
-}
-
-firebase.initializeApp(firebaseConfig)
-
-const login = () => {
-  const provider = new firebase.auth.FacebookAuthProvider()
-  firebase.auth().signInWithRedirect(provider)
-}
+import { ColorContext } from '../../app'
 
 function Login () {
   const [userInfo, setUserInfo] = useState({
     isUserLoggedIn: false,
     user: null
   })
-
   const { isUserLoggedIn, user } = userInfo
+
+  const { color, setColor } = useContext(ColorContext)
 
   useEffect(() => {
     firebase.auth().onAuthStateChanged((user) => {
@@ -40,7 +24,12 @@ function Login () {
     })
   }, [])
 
-  const logout = () => {
+  const login = useCallback(() => {
+    const provider = new firebase.auth.FacebookAuthProvider()
+    firebase.auth().signInWithRedirect(provider)
+  }, [])
+
+  const logout = useCallback(() => {
     firebase.auth().signOut().then(() => {
       console.log('Deslogou')
       setUserInfo({
@@ -48,7 +37,7 @@ function Login () {
         user: null
       })
     })
-  }
+  }, [])
 
   return (
     <Container>
@@ -67,9 +56,12 @@ function Login () {
             </>
           )}
           {!isUserLoggedIn && (
-            <FacebookButton onClick={login}>
-                Entrar com Facebook
-            </FacebookButton>
+            <>
+              <FacebookButton onClick={login}>
+                  Entrar com Facebook ({color})
+              </FacebookButton>
+              <button onClick={() => setColor('blue')}>Cor Azul</button>
+            </>
           )}
         </Grid>
       </Grid>
