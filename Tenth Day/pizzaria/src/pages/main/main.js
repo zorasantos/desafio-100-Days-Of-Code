@@ -1,25 +1,57 @@
-import React, { Fragment } from 'react'
-import { Route, Switch } from 'react-router-dom'
-
-const routes = [
-  { path: '/rota1', content: 'Rota 1' },
-  { path: '/rota2', content: 'Rota 2' }
-]
+import React from 'react'
+import styled from 'styled-components'
+import {
+  AppBar,
+  Toolbar,
+  IconButton,
+  Typography,
+  Menu,
+  MenuItem } from '@material-ui/core'
+import { AccountCircle } from '@material-ui/icons'
+import { ReactComponent as MainLogo } from '../../pages/login/logo.svg'
 
 const MainPage = () => (
-  <Fragment>
-    <h1>Main Page</h1>
+  <AppBar>
+    <Toolbar>
+      <LogoContainer>
+        <Logo />
+      </LogoContainer>
 
-    <Switch>
-      {routes.map(route => (
-        <Route
-          key={route.path}
-          path={route.path}
-          render={() => <h2>{route.content}</h2>}
-        />
-      ))}
-    </Switch>
-  </Fragment>
+      <Typography color='inherit'>
+        Ola João =)
+      </Typography>
+
+      <IconButton color='inherit'>
+        <AccountCircle />
+      </IconButton>
+
+      <Menu open={false}>
+        <MenuItem>
+          Sair
+        </MenuItem>
+      </Menu>
+
+    </Toolbar>
+  </AppBar>
 )
+
+const LogoContainer = styled.div`
+  flex-grow: 1
+
+`
+
+const Logo = styled(MainLogo)`
+  height: 50px;
+  width: 125px;
+
+  & path {
+    fill: #fff;
+  }
+
+  & line {
+    stroke: #fff;
+  }
+
+`
 
 export default MainPage
