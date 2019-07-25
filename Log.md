@@ -43,3 +43,5 @@ Link para o projeto: (https://github.com/zorasantos/desafio-100-Days-Of-Code/tre
 ## Dia 12: 24 de Julho de 2019 (Thirteenth Day)
 **Progresso de Hoje**: Modificamos o codigo para implementar o React Hooks. Fizemos toda parte de autentificação usando o novo context API do react v16. Tambem refatoramos o arquivo app.js pra melhorar a aplicação. Link do projeto(https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Tenth%20Day/pizzaria)
 
+## Dia 13: 25 de Julho de 2019 (Fourteenth Day)
+**Progresso de Hoje**: Hoje trabalhamos na criação das regras de redirecionamento de paginas no caso de o usuario estar deslogado e no caso do usuario estar logado. Trabalhamos para que redirects desnecessarios fossem implementado e depois refatoramos as verificações das regras. Link do projeto(https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Tenth%20Day/pizzaria)
