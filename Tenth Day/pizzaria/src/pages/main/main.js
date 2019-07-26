@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import {
   AppBar,
   Toolbar as MaterialToolbar,
+  Grid,
   IconButton,
   Typography,
   Menu,
@@ -14,6 +15,7 @@ import { AuthContext } from '../../contexts/auth'
 const MainPage = () => {
   const [anchorElement, setAnchorElement] = useState(null)
   const { userInfo, logout } = useContext(AuthContext)
+  const userName = userInfo.user.displayName.split(' ')[0]
 
   const handleOpenMenu = (e) => {
     setAnchorElement(e.target)
@@ -24,28 +26,40 @@ const MainPage = () => {
   }
 
   return (
-    <AppBar>
-      <Toolbar>
-        <LogoContainer>
-          <Logo />
-        </LogoContainer>
+    <>
+      <AppBar>
+        <Toolbar>
+          <LogoContainer>
+            <Logo />
+          </LogoContainer>
 
-        <Typography color='inherit'>
-          Ola {userInfo.user.displayName.split(' ')[0]} =)
-        </Typography>
+          <Typography color='inherit'>
+            Ola {userName} =)
+          </Typography>
 
-        <IconButton color='inherit' onClick={handleOpenMenu}>
-          <AccountCircle />
-        </IconButton>
+          <IconButton color='inherit' onClick={handleOpenMenu}>
+            <AccountCircle />
+          </IconButton>
 
-        <Menu open={!!anchorElement} onClose={handleClose} anchorEl={anchorElement}>
-          <MenuItem onClick={logout}>
-            Sair
-          </MenuItem>
-        </Menu>
+          <Menu open={!!anchorElement} onClose={handleClose} anchorEl={anchorElement}>
+            <MenuItem onClick={logout}>
+              Sair
+            </MenuItem>
+          </Menu>
 
-      </Toolbar>
-    </AppBar>
+        </Toolbar>
+      </AppBar>
+
+      <Content>
+        <Grid container justfy='center'>
+          <Grid item>
+            <Typography variant='h3'>
+              O que vai ser hoje, {userName}? =)
+            </Typography>
+          </Grid>
+        </Grid>
+      </Content>
+    </>
   )
 }
 
@@ -69,6 +83,9 @@ const Logo = styled(MainLogo)`
   & line {
     stroke: #fff;
   }
+`
+const Content = styled.main`
+  padding: 80px 20px 20px;
 `
 
 export default MainPage
