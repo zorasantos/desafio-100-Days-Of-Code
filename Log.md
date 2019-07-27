@@ -45,3 +45,6 @@ Link para o projeto: (https://github.com/zorasantos/desafio-100-Days-Of-Code/tre
 
 ## Dia 13: 25 de Julho de 2019 (Fourteenth Day)
 **Progresso de Hoje**: Hoje trabalhamos na criação das regras de redirecionamento de paginas no caso de o usuario estar deslogado e no caso do usuario estar logado. Trabalhamos para que redirects desnecessarios fossem implementado e depois refatoramos as verificações das regras. Tambem implementamos o header da pagina principal que contem uma logo e um iconButton para deslogar o usuario e criamos toda a logica necessaria. Link do projeto(https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Tenth%20Day/pizzaria)
+
+## Dia 14: 26 de Julho de 2019 (Fifteenth Day)
+**Progresso de Hoje**: Hoje trabalhamos no projeto pizzaria e demos inicio a uma aplicação que sera um crud de registros de video. Criamos o layout da listagem de videos e fizemos a estilização. Usaremos o Firebase como banco de dados. Link para o projeto Reactflix (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)
