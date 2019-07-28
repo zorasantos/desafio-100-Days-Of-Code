@@ -4,6 +4,16 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const db = window.firebase.database()
+const videos = db.ref('videos')
+
+videos.on('value', (snapshot) => {
+    console.log('snapshot:', snapshot.val())
+}, (error) => {
+    console.log('error:', error)
+})
+
+
 ReactDOM.render(
     <React.Fragment>
         <App />
