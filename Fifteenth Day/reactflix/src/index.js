@@ -7,6 +7,11 @@ import * as serviceWorker from './serviceWorker';
 const db = window.firebase.database()
 const videos = db.ref('videos')
 
+videos.update({
+    id: null,
+    title: null
+})
+
 videos.on('value', (snapshot) => {
     console.log('snapshot:', snapshot.val())
 }, (error) => {
