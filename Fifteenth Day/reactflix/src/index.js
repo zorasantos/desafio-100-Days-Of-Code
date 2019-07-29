@@ -3,21 +3,27 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { db } from './config/firebase'
 
-const db = window.firebase.database()
+
 const videos = db.ref('videos')
+
+videos.child('123').set({
+    id: '123',
+    title: 'Data Structure'
+})
 
 videos.update({
     id: null,
     title: null
 })
 
+
 videos.on('value', (snapshot) => {
     console.log('snapshot:', snapshot.val())
 }, (error) => {
     console.log('error:', error)
 })
-
 
 ReactDOM.render(
     <React.Fragment>
