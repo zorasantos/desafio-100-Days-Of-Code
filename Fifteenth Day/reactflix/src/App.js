@@ -5,6 +5,7 @@ import 'normalize.css'
 import 'milligram'
 import VideoSingle from './components/VideoSingle'
 import VideoList from './components/videos-List/index'
+import RegisterVideo from './components/Register-video';
 
 
 const App = () => (
@@ -14,6 +15,7 @@ const App = () => (
     </Header>
 
     <Main>
+      <RegisterVideo />
       <VideoSingle />
       <VideoList />
     </Main>
