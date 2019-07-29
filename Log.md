@@ -51,3 +51,10 @@ Link para o projeto: (https://github.com/zorasantos/desafio-100-Days-Of-Code/tre
 
 ## Dia 15: 27 de Julho de 2019 (Sixteenth Day)
 **Progresso de Hoje**: Hoje criamos o component videosingle que vai exibir o video que estiver  sendo executado num tamanho maior. Criamos tambem o banco de dados no firebase e fizemos as configurações neccessarias para integras o db a nossa aplicação. Link do projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)
+
+## Dia 16: 28 de Julho de 2019 (Seventeenth Day)
+**Progresso de Hoje**: Hoje criamos um arquivo para separar a codificação do firebase e fizemos algumas configurações necessarias. Fizemos tambem a instalações de 3 dependências, redux, react-redux, redux-thunk. Tivemos alguns problemas que demandaram algum tempo. Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)
+
+## Dia 17: 29 de Julho de 2019 (Eighteenth Day)
+**Progresso de Hoje**: Criamos um formulario de cadastro de videos e começamos a trabalhar com o redux. Como tivemos alguns problema, levamos muito na criação dos arquivos necessarios. Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)
+
