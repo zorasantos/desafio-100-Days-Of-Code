@@ -56,5 +56,8 @@ Link para o projeto: (https://github.com/zorasantos/desafio-100-Days-Of-Code/tre
 **Progresso de Hoje**: Hoje criamos um arquivo para separar a codificação do firebase e fizemos algumas configurações necessarias. Fizemos tambem a instalações de 3 dependências, redux, react-redux, redux-thunk. Tivemos alguns problemas que demandaram algum tempo. Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)
 
 ## Dia 17: 29 de Julho de 2019 (Eighteenth Day)
-**Progresso de Hoje**: Criamos um formulario de cadastro de videos e começamos a trabalhar com o redux. Como tivemos alguns problema, levamos muito na criação dos arquivos necessarios. Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)
+**Progresso de Hoje**: Criamos um formulario de cadastro de videos e começamos a trabalhar com o redux. Devido a alguns problema, levamos muito tempo na criação dos arquivos necessarios. Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)
+
+## Dia 18: 30 de Julho de 2019 (Nineteenth Day)
+**Progresso de Hoje**: Hoje continuamos codificamos para deixar a adição de videos dinâmica atravês do redux. Instalamos o redux devtools para testar se o cadastro esta funcinando. Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)
 

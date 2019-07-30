@@ -1,0 +1,2 @@
+## Dia 18: 30 de Julho de 2019 (Nineteenth Day)
+**Progresso de Hoje**: Hoje continuamos codificamos para deixar a adição de videos dinâmica atravês do redux. Instalamos o redux devtools para testar se o cadastro esta funcinando. Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)
