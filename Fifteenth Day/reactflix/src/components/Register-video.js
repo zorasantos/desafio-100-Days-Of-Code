@@ -23,6 +23,13 @@ const Form = styled.form`
 const mapDispatchToProps = (dispatch) => ({
     onSubmit: (e) => {
         e.preventDefault()
+        dispatch({
+            type: 'videos:ADD_VIDEO',
+            payload: {
+                id: 't2CEgPsws3U',
+                title: 'Data Structure'
+            }
+        })
     }
 })
 
