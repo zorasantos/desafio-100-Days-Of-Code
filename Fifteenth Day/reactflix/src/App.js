@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import 'normalize.css'
 import 'milligram'
+
 import VideoSingle from './components/VideoSingle'
 import VideoList from './components/videos-List/index'
 import RegisterVideo from './components/Register-video';

@@ -5,7 +5,7 @@ const initialState = {}
 
 const videos = createReducer(initialState, {
     [ADD_VIDEO]: (state, action) => ({
-        state,
+        ...state,
         [action.payload.id]: {
             id: action.payload.id,
             title: action.payload.title
