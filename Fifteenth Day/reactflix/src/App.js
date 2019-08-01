@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { PureComponent } from 'react'
 import { connect } from 'react-redux'
 import styled from 'styled-components'
 import { headerHeight, footerHeight } from './utils/constants'
@@ -11,9 +11,17 @@ import VideoSingle from './components/VideoSingle'
 import VideoList from './components/videos-List/index'
 import RegisterVideo from './components/Register-video'
 import Footer from './components/footer'
+import { fetchVideos } from '../src/redux-flow/reducers/videos/action-creators'
 
-const App = ({isRegisterVideoFormOpened}) => (
-  <Container>
+class App extends PureComponent {
+  componentDidMount () {
+    this.props.fetchVideos()
+  }
+  render () {
+    const { isRegisterVideoFormOpened } = this.props
+
+    return (
+      <Container>
     <Header />
 
     <Main>
@@ -23,7 +31,9 @@ const App = ({isRegisterVideoFormOpened}) => (
     </Main>
     <Footer />
   </Container>
-)
+    )
+  }
+}
 
 const Container = styled.div`
   height: 100%;
@@ -35,4 +45,8 @@ const mapStateToProps = (state) => ({
   isRegisterVideoFormOpened: state.ui.isRegisterVideoFormOpened
 })
 
-export default connect(mapStateToProps)(App)
+const mapDispatchToProps = (dispatch) => ({
+  fetchVideos: () => dispatch(fetchVideos())
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(App)
