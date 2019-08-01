@@ -8,7 +8,7 @@ import 'milligram'
 
 import Header from './components/header'
 import VideoSingle from './components/VideoSingle'
-import VideoList from './components/videos-List/index'
+import VideoList from './components/videos-list'
 import RegisterVideo from './components/Register-video'
 import Footer from './components/footer'
 import { fetchVideos } from '../src/redux-flow/reducers/videos/action-creators'
@@ -45,8 +45,6 @@ const mapStateToProps = (state) => ({
   isRegisterVideoFormOpened: state.ui.isRegisterVideoFormOpened
 })
 
-const mapDispatchToProps = (dispatch) => ({
-  fetchVideos: () => dispatch(fetchVideos())
-})
+const mapDispatchToProps = { fetchVideos: fetchVideos }
 
 export default connect(mapStateToProps, mapDispatchToProps)(App)

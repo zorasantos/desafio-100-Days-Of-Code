@@ -1,9 +1,11 @@
 import { combineReducers } from 'redux'
-import Videos from './videos'
+import videos from './videos'
 import ui from '../ui'
+import videoSingle from './video-single'
 
 export default combineReducers({
-    Videos,
-    ui
+    videos,
+    ui,
+    videoSingle
 })
 
