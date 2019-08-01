@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const VideoSingle = () => (
+const VideoSingle = ({ id, title }) => (
     <Container>
-        <Iframe width="784" height="441" src="https://www.youtube.com/embed/t2CEgPsws3U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
-        <Title>Titulo do video</Title>
+        <Iframe width="784" height="441" src={`https://www.youtube.com/embed/${id}`} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+        <Title>{title}</Title>
     </Container>
 )
 
