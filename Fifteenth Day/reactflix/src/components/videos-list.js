@@ -9,7 +9,7 @@ const VideosList = ({ videos, handleClick }) => (
         {Object.keys(videos).map((id) => (
             <Video key={id}>
                 <VideoLink href='#' onClick={handleClick(id)}>
-                    <VideoThumb>
+                    <VideoThumb >
                         <PlayStyled />
                     </VideoThumb>
                     <VideoTitle>{videos[id].title}</VideoTitle>

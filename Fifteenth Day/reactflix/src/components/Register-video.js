@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { connect } from 'react-redux'
 import { registerVideo } from '../redux-flow/reducers/videos/action-creators'
-import { closeRegisterVideo } from '../redux-flow/ui/action-creators'
+import { closeRegisterVideo } from '../redux-flow/reducers/ui/action-creators'
 
 const RegisterVideo = ({ onSubmit, onCloseRegisterVideo }) => (
     <Form onSubmit={onSubmit}>

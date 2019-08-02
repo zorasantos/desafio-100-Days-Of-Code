@@ -1,4 +1,4 @@
-import createReducer from '../reducers/create-reducer'
+import createReducer from '../create-reducer'
 import { OPEN_REGISTER_VIDEO, CLOSE_REGISTER_VIDEO } from '../ui/actions'
 
 const initialState = {

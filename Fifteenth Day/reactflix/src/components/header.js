@@ -2,7 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 import styled from 'styled-components'
 import { headerHeight } from '../utils/constants'
-import { openRegisterVideo } from '../redux-flow/ui/action-creators'
+import { openRegisterVideo } from '../redux-flow/reducers/ui/action-creators'
 
 const MainHeader = ({onOpenRegisterVideo}) => (
     <Header>
