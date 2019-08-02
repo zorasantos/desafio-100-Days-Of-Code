@@ -9,7 +9,7 @@ const VideosList = ({ videos, handleClick }) => (
         {Object.keys(videos).map((id) => (
             <Video key={id}>
                 <VideoLink href='#' onClick={handleClick(id)}>
-                    <VideoThumb >
+                    <VideoThumb id={id}>
                         <PlayStyled />
                     </VideoThumb>
                     <VideoTitle>{videos[id].title}</VideoTitle>
@@ -53,6 +53,9 @@ const VideoThumb = styled.div`
     display: flex;
     height: 150px;
     justify-content: center;
+
+    background: url('http://i3.ytimg.com/vi/${(props) => props.id}/maxresdefault.jpg') 50% 50% no-repeat;
+    background-size: cover;
 `
 
 const VideoTitle = styled.h2`
