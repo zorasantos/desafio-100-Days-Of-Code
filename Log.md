@@ -64,8 +64,8 @@ Link para o projeto: (https://github.com/zorasantos/desafio-100-Days-Of-Code/tre
 ## Dia 19: 31 de Julho de 2019 (Twelfth Day)
 **Progresso de Hoje**: Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)
 
-## Dia 19: 01 de Agosto de 2019 (Twelfth Day)
+## Dia 20: 01 de Agosto de 2019 (Twelfth-first Day)
 **Progresso de Hoje**:Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)
 
-## Dia 19: 02 de Agosto de 2019 (Twenty-first Day)
+## Dia 21: 02 de Agosto de 2019 (Twenty-second Day)
 **Progresso de Hoje**:Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)

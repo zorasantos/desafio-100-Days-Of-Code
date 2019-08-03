@@ -1,2 +1,0 @@
-## Dia 17: 29 de Julho de 2019 (Eighteenth Day)
-**Progresso de Hoje**: Criamos um formulario de cadastro de videos e começamos a trabalhar com o redux. Como tivemos alguns problema, levamos muito na criação dos arquivos necessarios. Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)

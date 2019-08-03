@@ -1,2 +1,0 @@
-## Dia 16: 28 de Julho de 2019 (Seventeenth Day)
-**Progresso de Hoje**: Hoje criamos um arquivo para separar a codificação do firebase e fizemos algumas configurações necessarias. Fizemos tambem a instalações de 3 dependências, redux, react-redux, redux-thunk. Tivemos alguns problemas que demandaram algum tempo. Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)

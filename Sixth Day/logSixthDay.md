@@ -1,2 +1,0 @@
-### Dia 5: 17 de Julho de 2019 (Sixth Day)
-**Progresso de Hoje**: Demos continuidade a criação da interface da aplicação. Criamos uma página de registro e uma página de login, implementamos imagem entre outras melhorias no código. Resolvemos também desfios no freecodecamp, bem como outras tarejas de codificação. link: (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifth%20day/cartaodevacina)
