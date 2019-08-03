@@ -61,11 +61,11 @@ Link para o projeto: (https://github.com/zorasantos/desafio-100-Days-Of-Code/tre
 ## Dia 18: 30 de Julho de 2019 (Nineteenth Day)
 **Progresso de Hoje**: Hoje continuamos codificamos para deixar a adição de videos dinâmica atravês do redux. Instalamos o redux devtools para testar se o cadastro esta funcinando. Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)
 
-## Dia 19: 31 de Julho de 2019 (Twelfth Day)
-**Progresso de Hoje**: Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)
+## Dia 19: 31 de Julho de 2019 (Twentieth Day)
+**Progresso de Hoje**: Entre os dias 19, 20 e 21 concluimos a aplicação e fizemos o deploy no firebase. Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)
 
-## Dia 20: 01 de Agosto de 2019 (Twelfth-first Day)
-**Progresso de Hoje**:Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)
+## Dia 20: 01 de Agosto de 2019 (Twenty-first Day)
+**Progresso de Hoje**: Entre os dias 19, 20 e 21 concluimos a aplicação e fizemos o deploy no firebase. Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)
 
 ## Dia 21: 02 de Agosto de 2019 (Twenty-second Day)
-**Progresso de Hoje**:Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)
+**Progresso de Hoje**: Entre os dias 19, 20 e 21 concluimos a aplicação e fizemos o deploy no firebase. Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)
