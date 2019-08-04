@@ -70,8 +70,8 @@ Link para o projeto: (https://github.com/zorasantos/desafio-100-Days-Of-Code/tre
 ## Dia 21: 02 de Agosto de 2019 (Twenty-second Day)
 **Progresso de Hoje**: Entre os dias 19, 20 e 21 concluimos a aplicação e fizemos o deploy no firebase. Link para o projeto (https://github.com/zorasantos/desafio-100-Days-Of-Code/tree/master/Fifteenth%20Day/reactflix)
 
-## Dia 21: 03 de Agosto de 2019 (Twenty-third Day)
+## Dia 22: 03 de Agosto de 2019 (Twenty-third Day)
 **Progresso de Hoje**: Hoje voltamos a trabalhar no projeto de e-commerce. Link para o projeto (https://github.com/zorasantos/react-ecommerce-cellphone)
 
-## Dia 21: 04 de Agosto de 2019 (Twenty-fourth Day)
+## Dia 23: 04 de Agosto de 2019 (Twenty-fourth Day)
 **Progresso de Hoje**: Criamos a pagina de detalhes dos produtos que traz informações como preço, descrição, modelo, fabricante. Link para o projeto (https://github.com/zorasantos/react-ecommerce-cellphone)
