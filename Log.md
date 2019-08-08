@@ -75,3 +75,12 @@ Link para o projeto: (https://github.com/zorasantos/desafio-100-Days-Of-Code/tre
 
 ## Dia 23: 04 de Agosto de 2019 (Twenty-fourth Day)
 **Progresso de Hoje**: Criamos a pagina de detalhes dos produtos que traz informações como preço, descrição, modelo, fabricante. Link para o projeto (https://github.com/zorasantos/react-ecommerce-cellphone)
+
+## Dia 24: 05 de Agosto de 2019 (Twenty-fifth Day)
+**Progresso de Hoje**: Hoje criamos um modal para quando clicar no produto o box-modal abrir destacando algumas informações sobre o produto. Link para o projeto (https://github.com/zorasantos/react-ecommerce-cellphone)
+
+## Dia 25: 06 de Agosto de 2019 (Twenty-sixth Day)
+**Progresso de Hoje**: Estamos trabalhando para obter o certificado Front End Libraries Certification (300 hours) do freeCodeCamp. Para isso estamos fazendo os cinco projetos exigidos.
+
+## Dia 26: 07 de Agosto de 2019 (Twenty-Seventh Day)
+**Progresso de Hoje**: Estamos trabalhando para obter o certificado Front End Libraries Certification (300 hours) do freeCodeCamp. Para isso estamos fazendo os cinco projetos exigidos.
