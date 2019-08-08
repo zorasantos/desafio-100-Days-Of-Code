@@ -81,6 +81,15 @@ Link para o projeto: (https://github.com/zorasantos/desafio-100-Days-Of-Code/tre
 
 ## Dia 25: 06 de Agosto de 2019 (Twenty-sixth Day)
 **Progresso de Hoje**: Estamos trabalhando para obter o certificado Front End Libraries Certification (300 hours) do freeCodeCamp. Para isso estamos fazendo os cinco projetos exigidos.
+Link do certificado: https://www.freecodecamp.org/certification/zorasantos/front-end-libraries
+Link para os projetos: https://codepen.io/Zoranildo/
 
 ## Dia 26: 07 de Agosto de 2019 (Twenty-Seventh Day)
 **Progresso de Hoje**: Estamos trabalhando para obter o certificado Front End Libraries Certification (300 hours) do freeCodeCamp. Para isso estamos fazendo os cinco projetos exigidos.
+Link do certificado: https://www.freecodecamp.org/certification/zorasantos/front-end-libraries
+Link para os projetos: https://codepen.io/Zoranildo/
+
+## Dia 28: 08 de Agosto de 2019 (Twenty-Eighth Day)
+**Progresso de Hoje**: Estamos trabalhando para obter o certificado Front End Libraries Certification (300 hours) do freeCodeCamp. Para isso estamos fazendo os cinco projetos exigidos.
+Link do certificado: https://www.freecodecamp.org/certification/zorasantos/front-end-libraries
+Link para os projetos: https://codepen.io/Zoranildo/
