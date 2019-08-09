@@ -93,3 +93,6 @@ Link para os projetos: https://codepen.io/Zoranildo/
 **Progresso de Hoje**: Estamos trabalhando para obter o certificado Front End Libraries Certification (300 hours) do freeCodeCamp. Para isso estamos fazendo os cinco projetos exigidos.
 Link do certificado: https://www.freecodecamp.org/certification/zorasantos/front-end-libraries
 Link para os projetos: https://codepen.io/Zoranildo/
+
+## Dia 29: 09 de Agosto de 2019 (Twenty-Nineth Day)
+**Progresso de Hoje**: Teste
