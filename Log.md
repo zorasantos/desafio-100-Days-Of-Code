@@ -89,10 +89,13 @@ Link para os projetos: https://codepen.io/Zoranildo/
 Link do certificado: https://www.freecodecamp.org/certification/zorasantos/front-end-libraries
 Link para os projetos: https://codepen.io/Zoranildo/
 
-## Dia 28: 08 de Agosto de 2019 (Twenty-Eighth Day)
+## Dia 27: 08 de Agosto de 2019 (Twenty-Eighth Day)
 **Progresso de Hoje**: Estamos trabalhando para obter o certificado Front End Libraries Certification (300 hours) do freeCodeCamp. Para isso estamos fazendo os cinco projetos exigidos.
 Link do certificado: https://www.freecodecamp.org/certification/zorasantos/front-end-libraries
 Link para os projetos: https://codepen.io/Zoranildo/
 
-## Dia 29: 09 de Agosto de 2019 (Twenty-Nineth Day)
+## Dia 28: 09 de Agosto de 2019 (Twenty-Nineth Day)
+**Progresso de Hoje**: Teste
+
+## Dia 29: 10 de Agosto de 2019 (Thirtieth Day)
 **Progresso de Hoje**: Teste
