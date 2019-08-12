@@ -104,4 +104,4 @@ Link para os projetos: https://codepen.io/Zoranildo/
 **Progresso de Hoje**: O teste consiste em criar uma loja simples com três paginas. Primeira pagina deve conter os items para compra. Segunda pagina deve conter uma lista de items comprados e a terceira pagina devera detalhar o produto. Link do projeto: https://github.com/zorasantos/test-frontend
 
 ## Dia 31: 12 de Agosto de 2019 (Thirtieth-second Day)
-**Progresso de Hoje**: O teste consiste em criar uma loja simples com três paginas. Primeira pagina deve conter os items para compra. Segunda pagina deve conter uma lista de items comprados e a terceira pagina devera detalhar o produto. Link do projeto: https://github.com/zorasantos/test-frontend
+**Progresso de Hoje**: Teste concluido. O teste consiste em criar uma loja simples com três paginas. Primeira pagina deve conter os items para compra. Segunda pagina deve conter uma lista de items comprados e a terceira pagina devera detalhar o produto. Link do projeto: https://github.com/zorasantos/test-frontend
