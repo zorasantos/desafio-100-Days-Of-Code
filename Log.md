@@ -106,6 +106,8 @@ Link para os projetos: https://codepen.io/Zoranildo/
 ## Dia 31: 12 de Agosto de 2019 (Thirtieth-second Day)
 **Progresso de Hoje**: Teste concluido. O teste consiste em criar uma loja simples com três paginas. Primeira pagina deve conter os items para compra. Segunda pagina deve conter uma lista de items comprados e a terceira pagina devera detalhar o produto. Link do projeto: https://github.com/zorasantos/test-frontend
 
-
 ## Dia 32: 13 de Agosto de 2019 (Thirtieth-third Day)
+**Progresso de Hoje**: Vue.js
+
+## Dia 33: 14 de Agosto de 2019 (Thirtieth-fourth Day)
 **Progresso de Hoje**: Vue.js
