@@ -111,3 +111,6 @@ Link para os projetos: https://codepen.io/Zoranildo/
 
 ## Dia 33: 14 de Agosto de 2019 (Thirtieth-fourth Day)
 **Progresso de Hoje**: Vue.js
+
+## Dia 34: 15 de Agosto de 2019 (Thirtieth-fifth Day)
+**Progresso de Hoje**: Vue.js
