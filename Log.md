@@ -114,3 +114,12 @@ Link para os projetos: https://codepen.io/Zoranildo/
 
 ## Dia 34: 15 de Agosto de 2019 (Thirtieth-fifth Day)
 **Progresso de Hoje**: Vue.js
+
+## Dia 35: 16 de Agosto de 2019 (Thirtieth-sixth Day)
+**Progresso de Hoje**: Vue.js
+
+## Dia 36: 17 de Agosto de 2019 (Thirtieth-seventh Day)
+**Progresso de Hoje**: Vue.js
+
+## Dia 35: 18 de Agosto de 2019 (Thirtieth-eigth Day)
+**Progresso de Hoje**: projeto matador de monstros
