@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.phone {
+    padding-top: 70px;
+    height: 650px;
+    float: right;
+    margin: 10px;
+}
+body {
+    background-color: rgb(250, 250, 250);
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.logo {
+    width: 175px;
+    height: 51px;
+}
+.right-column {
+    background-color: #fff;
+    border: 1px solid #e6e6e6e6;
+    width: 350px;
+    margin: 10px;
+}
